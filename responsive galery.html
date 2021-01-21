@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0"> 
+    <title>Galery</title>
+    <style>
+    
+    img {
+     max-width: 100%;
+    }
+    
+#grid1 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 16px;
+}
+
+.box {
+background-color: #1253a8;
+position: relative;
+display: flex;
+flex-direction: column;
+border-radius: 15px;
+}
+
+.box p {
+
+    position:relative;
+    background-color: white;
+    text-align:center;
+    margin: 0;
+    display: block;
+    width: 100%;
+}
+@media screen and (max-width: 768px) {
+                #grid1 {
+                    grid-template-columns: repeat(3, 1fr);
+                }}
+@media screen and (max-width: 414px) {
+                #grid1 {
+                    grid-template-columns: repeat(1, 1fr);
+                }}
+                
+    </style>
+</head>
+<body>
+  
+    <h1>Gallery Heading</h1>
+
+<div id="grid1">
+    <div id="box1" class="box"><img src="placeholder-image.png"><p>Image title</p></div>
+    <div id="box2" class="box"><img src="placeholder-image.png"><p>Image title</p></div>
+    <div id="box3" class="box"><img src="placeholder-image.png"><p>Image title</p></div>
+    <div id="box4" class="box"><img src="placeholder-image.png"><p>Image title</p></div>
+    <div id="box5" class="box"><img src="placeholder-image.png"><p>Image title</p></div>
+    <div id="box6" class="box"><img src="placeholder-image.png"><p>Image title</p></div>
+    <div id="box7" class="box"><img src="placeholder-image.png"><p>Image title</p></div>
+    <div id="box8" class="box"><img src="placeholder-image.png"><p>Image title</p></div>
+    <div id="box9" class="box"><img src="placeholder-image.png"><p>Image title</p></div>
+    <div id="box10" class="box"><img src="placeholder-image.png"><p>Image title</p></div>
+</div>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu sem vel diam finibus lobortis. In rhoncus neque odio, non maximus ex pretium quis. Vivamus interdum convallis ex ac efficitur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu sem vel diam finibus lobortis. In rhoncus neque odio, non maximus ex pretium quis. Vivamus interdum convallis ex ac efficitur.</p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu sem vel diam finibus lobortis. In rhoncus neque odio, non maximus ex pretium quis. Vivamus interdum convallis ex ac efficitur.</p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu sem vel diam finibus lobortis. In rhoncus neque odio, non maximus ex pretium quis. Vivamus interdum convallis ex ac efficitur.</p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu sem vel diam finibus lobortis. In rhoncus neque odio, non maximus ex pretium quis. Vivamus interdum convallis ex ac efficitur.</p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu sem vel diam finibus lobortis. In rhoncus neque odio, non maximus ex pretium quis. Vivamus interdum convallis ex ac efficitur.</p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu sem vel diam finibus lobortis. In rhoncus neque odio, non maximus ex pretium quis. Vivamus interdum convallis ex ac efficitur.</p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu sem vel diam finibus lobortis. In rhoncus neque odio, non maximus ex pretium quis. Vivamus interdum convallis ex ac efficitur.</p>
+</p>
+</body>
+</html>
